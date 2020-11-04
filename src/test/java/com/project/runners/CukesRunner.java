@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/ features", // from content root
         glue = "com/project/step_definitions", // from source root
         dryRun = true,
-        tags = "@librarian"
+        tags = "@student or @admin"
 
 
 )
