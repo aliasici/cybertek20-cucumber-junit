@@ -15,6 +15,7 @@ Feature: Login Feature
     Given User is on the login page
     When User logs in as student
     Then User should see dashboard
+
   @admin @employee
   Scenario: Admin login scenario
     Given User is on the login page
